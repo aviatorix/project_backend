@@ -1,0 +1,43 @@
+//user.get('/users', function(req,res){ --> con query users?index= ""
+/*router.get('/users/:index', function(req,res){
+  console.log("query index");
+  index=parseInt(req.query.index); //il valore dell'uri è una stringa
+  res.status(200).json({"utente": users[index]});
+})*/
+
+  //router.push(req.body); //tutto il body di postman
+//res.status(201).json({'Array':users}); esempio .json
+
+
+/*users.get('/users', function (req,res){
+  var utente=[];
+  if(req.query.name==undefined){
+      console.log("Utenti");
+    res.status(200).json({'Array':users });
+  }else{
+          if(req.query.surname==undefined)
+          {
+            console.log("Nome");
+            for(var i=0; i<users.length;i++)
+            {
+              if(req.query.name==users[i].name)
+              {
+                utente.push(users[i]);
+              }
+            }
+
+          }else{
+                  console.log("Nome e Cognome");
+                  for(var i=0; i<users.length;i++)
+                  {
+                    if(req.query.name==users[i].name && req.query.surname==users[i].surname)
+                    {
+                      utente.push(users[i]);
+                    }
+                  }
+
+                }
+                res.status(200).json({'Array':utente });
+        }
+
+  })*/

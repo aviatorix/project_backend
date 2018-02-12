@@ -1,0 +1,17 @@
+{
+  "name": "ecomme_package",
+  "version": "1.3.0",
+  "description": "function manager ecommerce",
+  "main": "eccommerce.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "function_eco"
+  ],
+  "author": "Daviano Amarù",
+  "license": "MIT",
+  "dependencies": {
+    "timestamp_package": "^1.0.0"
+  }
+}
